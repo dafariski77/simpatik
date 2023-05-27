@@ -2,6 +2,10 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
+* {
+    font-family: 'Poppins';
+}
+
 /*variabel*/
 :root {
     /*tipografi*/
@@ -42,11 +46,11 @@
 
 /* Colors */
 .text-orange {
-    color: #3DC2A2;
+    color: #3dc2a2;
 }
 
 .text-darker {
-    color: #670075;
+    color: #5d3e8c;
 }
 
 .text-darker-less {
@@ -58,11 +62,11 @@
 }
 
 .bg-orange {
-    background-color: #3DC2A2;
+    background-color: #3dc2a2;
 }
 
 .bg-darker {
-    background-color: #670075;
+    background-color: #5d3e8c;
 }
 
 .bg-darker-less {
@@ -86,7 +90,7 @@ nav {
 }
 
 nav .nav-link:hover {
-    color: #3DC2A2;
+    color: #3dc2a2;
 }
 
 /* img-banner */
@@ -158,13 +162,13 @@ nav .nav-link:hover {
     top: 0;
     left: 50%;
     width: 0;
-    border-left: 2px dashed #670075;
+    border-left: 2px dashed #5d3e8c;
     height: 100%;
     z-index: 1;
     transform: translateX(-50%);
 }
 .timeline-content-paper {
-    border: 1px solid #3DC2A2;
+    border: 1px solid #3dc2a2;
     position: relative;
     border-radius: 0 0 10px 10px;
     box-shadow: 0px 3px 25px 0px rgba(10, 55, 90, 0.2);
@@ -176,7 +180,7 @@ nav .nav-link:hover {
     box-shadow: 0px 3px 25px 0px rgba(10, 55, 90, 0.2);
 }
 .timeline-content-both {
-    border: 1px solid #670075;
+    border: 1px solid #5d3e8c;
     position: relative;
     border-radius: 0 0 10px 10px;
     box-shadow: 0px 3px 25px 0px rgba(10, 55, 90, 0.2);
@@ -198,7 +202,7 @@ nav .nav-link:hover {
     top: 5%;
     left: 100%;
     width: 0;
-    border-left: 10px solid #670075;
+    border-left: 10px solid #5d3e8c;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
 }
@@ -208,7 +212,7 @@ nav .nav-link:hover {
     top: 5%;
     right: 100%;
     width: 0;
-    border-right: 10px solid #670075;
+    border-right: 10px solid #5d3e8c;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
 }
@@ -220,7 +224,7 @@ nav .nav-link:hover {
     content: "";
     width: 80px;
     height: 80px;
-    border: 2px dashed #670075;
+    border: 2px dashed #5d3e8c;
     border-radius: 50%;
     display: block;
     position: absolute;
@@ -254,7 +258,7 @@ nav .nav-link:hover {
         top: 0;
         left: 4%;
         width: 0;
-        border-left: 2px dashed #670075;
+        border-left: 2px dashed #5d3e8c;
         height: 100%;
         z-index: 1;
         transform: translateX(-50%);
@@ -279,7 +283,7 @@ nav .nav-link:hover {
         right: 100%;
         width: 0;
         border-left: 0;
-        border-right: 10px solid #670075;
+        border-right: 10px solid #5d3e8c;
         border-top: 10px solid transparent;
         border-bottom: 10px solid transparent;
     }
@@ -289,7 +293,7 @@ nav .nav-link:hover {
         top: 5%;
         right: 100%;
         width: 0;
-        border-right: 10px solid #670075;
+        border-right: 10px solid #5d3e8c;
         border-top: 10px solid transparent;
         border-bottom: 10px solid transparent;
     }
@@ -338,7 +342,7 @@ nav .nav-link:hover {
     margin: 20px 0;
 }
 .site-footer h6 {
-    color: #3DC2A2;
+    color: #3dc2a2;
     font-size: 16px;
     text-transform: uppercase;
     margin-top: 5px;
