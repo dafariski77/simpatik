@@ -469,3 +469,9 @@ nav .nav-link:hover {
 .partners td {
     padding: 8px;
 }
+
+.bg-custom {
+    background-image: url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
