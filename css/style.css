@@ -7,6 +7,12 @@
     font-family: "Poppins";
 }
 
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
 p {
     color: #8d97ad !important;
 }
@@ -207,16 +213,25 @@ nav .nav-link:hover {
     line-height: 24px;
     color: #000000;
 }
+
 .site-footer h6 {
-    color: #1abc9c;
+    color: #741f89;
     font-size: 16px;
     text-transform: uppercase;
     margin-top: 5px;
     letter-spacing: 2px;
+    font-weight: bold;
 }
+
 .site-footer a {
     color: #737373;
+    text-decoration: none;
 }
+
+.site-footer .contact p i {
+    margin-right: 5px;
+}
+
 .site-footer a:hover {
     color: #3366cc;
     text-decoration: none;
@@ -227,6 +242,7 @@ nav .nav-link:hover {
         margin-bottom: 30px;
     }
 }
+
 @media (max-width: 767px) {
     .site-footer {
         padding-bottom: 0;
@@ -346,4 +362,10 @@ ol li {
     text-align: left;
     color: #8d97ad;
     /* margin-left: 10%; */
+}
+
+.product-img {
+    object-fit: contain;
+    height: 80px;
+    width: 100%;
 }
