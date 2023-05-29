@@ -1,522 +1,737 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+        />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/custom.css" />
+        <title>Simpatik</title>
+    </head>
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/custom.css" />
-    <title>Simpatik</title>
-</head>
-
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-white fixed-top shadow">
-            <div class="container">
-                <a class="navbar-brand" href="">
-                    <img src="./images/simpatik-ungu.png" class="" alt="Simpatik" width="190" />
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse p-1" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://forms.gle/uc8KgBgrjEoosjCRA">Registrasi</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#timeline">Timeline</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#publikasi">Peluang Publikasi</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Simpatik 1</a>
-                        </li>
-                    </ul>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-white fixed-top shadow">
+                <div class="container">
+                    <a class="navbar-brand" href="">
+                        <img
+                            src="./images/simpatik-ungu.png"
+                            class=""
+                            alt="Simpatik"
+                            width="190"
+                        />
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse p-1" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    href="https://forms.gle/uc8KgBgrjEoosjCRA"
+                                    >Registrasi</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#timeline"
+                                    >Timeline</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#publikasi"
+                                    >Peluang Publikasi</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact"
+                                    >Simpatik 1</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <!-- Home -->
-        <section id="home">
-            <section id="banner">
-                <div class="banner bg-white text-center">
-                    <!-- Landing 1 -->
-                    <div
-                        class="d-flex text-center vh-100 align-items-center flex-column bg-custom justify-content-center">
-                        <div class="content container">
-                            <img src="./images/simpatik-ungu.png" alt="" width="700" class="img-fluid img-banner">
-                            <div class="d-flex justify-content-center mt-4">
-                                <h2 class="display-4 text-orange title-landing w-80 lead">AKSELERASI HALAL VALUE CHAIN
-                                    UNTUK KEMAJUAN BISNIS UMKM</h2>
-                            </div>
-                            <div class="col-lg-6 mx-auto my-4">
-                                <div class="gap-2 d-sm-flex justify-content-sm-center py-3 px-sm-5">
-                                    <button type="button"
-                                        class="btn btn-warning btn-md px-4 py-2 rounded-3 text-white">Registrasi</button>
-                                    <button type="button" class="btn btn-outline-warning btn-md px-4 py-2 rounded-3">Get
-                                        Poster</button>
+            </nav>
+        </header>
+        <main>
+            <!-- Home -->
+            <section id="home">
+                <section id="banner">
+                    <div class="banner bg-white text-center">
+                        <!-- Landing 1 -->
+                        <div
+                            class="d-flex text-center vh-100 align-items-center flex-column bg-custom justify-content-center"
+                        >
+                            <div class="content container">
+                                <img
+                                    src="./images/simpatik-ungu.png"
+                                    alt=""
+                                    width="700"
+                                    class="img-fluid img-banner"
+                                />
+                                <div class="d-flex justify-content-center mt-4">
+                                    <h2
+                                        class="display-4 text-orange title-landing w-80 lead"
+                                    >
+                                        AKSELERASI HALAL VALUE CHAIN UNTUK
+                                        KEMAJUAN BISNIS UMKM
+                                    </h2>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END landing 1 -->
-                </div>
-            </section>
-            <div class="container text-center mt-70">
-                <h1 class="h1 fw-bold text-orange mt-5 mb-3">Call For Paper</h1>
-                <h2 class="text-darker">Akselerasi Halal Value Chain</h2>
-                <h2 class="text-darker">Untuk Kemajuan Bisnis UMKM</h2>
-                <div class="d-flex justify-content-center text-center">
-                    <p class="py-4 w-75">
-                        Simpatik (Simposium Nasional Perbankan Akuntansi dan
-                        Keuangan) dengan rangkaian acara berupa Seminar Nasional
-                        dan Call For Paper yang diadakan oleh Jurusan Akuntansi
-                        Politeknik Negeri Semarang mengusung Tema: Akselerasi
-                        Halal Value Chain Untuk Kemajuan Bisnis UMKM melalui
-                        narasumber terpercaya dan ahli di bidangnya hadir untuk
-                        memberikan pengetahuan kepada para peserta baik dari
-                        kalangan praktisi dan juga akademisi untuk sama-sama
-                        dapat memproyeksikan serta dapat mengkritisi terkait
-                        topik yang dibahas dalam forum ilmiah ini. Acara ini
-                        sekaligus mengundang praktisi, industri, dinas
-                        pemerintah yang terkait dan akademisi untuk bergabung
-                        dan bekerjasama dalam berbagi pemikiran, gagasan, ide
-                        untuk dapat menciptakan suatu iklim investasi yang
-                        berkelanjutan dan fleksibel terhadap resiko investasi di
-                        masa depan.
-                </div>
-                </p>
-                <div class="button-container pb-5">
-                    <a href="https://bit.ly/template_simpatik" class="btn btn-success mb-2">Download Template</a><br />
-                    <a href="https://forms.gle/CcUC66yDVX8YGWWh8" class="btn btn-danger bg-darker text-light">Upload
-                        Abstrak</a>
-                </div>
-                <div class="card-container grid mt-3 mb-5 m-auto row d-flex justify-content-center g-4">
-                    <div class="col-lg-3 shadow rounded-3">
-                        <div class="box-part text-center">
-                            <img src="./images/icons/buku.png" alt="" />
-                            <div class="title mt-3">
-                                <h4>Publikasi Prosiding</h4>
-                            </div>
-                            <div class="text">
-                                <span>
-                                    <p>Setiap naskah yang diterima akan diterbitkan
-                                        melalui prosiding online tanpa pemungutan biaya
-                                        (GRATIS)
-                                    </p>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 shadow rounded-3 mx-5">
-                        <div class="box-part text-center">
-                            <img src="./images/icons/medali.png" alt="" />
-                            <div class="title mt-3">
-                                <h4>Makalah Terbaik</h4>
-                            </div>
-                            <div class="text">
-                                <span>
-                                    <p>Artikel terpilih akan dipublikasikan pada Jurnal
-                                        Nasional Terakreditasi Sinta 2-5 dan Jurnal
-                                        Nasional (biaya publikasi menyesuaikan kebijakan
-                                        jurnal)
-                                    </p>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 shadow rounded-3">
-                        <div class="box-part text-center">
-                            <img src="./images/icons/sertifikat.png" alt="" />
-                            <div class="title mt-3">
-                                <h4>Sertifikat</h4>
-                            </div>
-                            <div class="text">
-                                <span>
-                                    <p> E-sertifikat bagi presenter penulis, Best
-                                        Paper/Best Presenter, dan peserta
-                                    </p>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pricing5 p-lg-5 p-sm-3 my-5">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-md-8 text-center">
-                                <h3 class="mb-3">Pricing to make your Work Effective</h3>
-                                <h6 class="subtitle font-weight-normal">We offer 100% satisafaction and Money back
-                                    Guarantee</h6>
-                            </div>
-                        </div>
-                        <div class="row text-center pricing-box">
-                            <div class="col-md-4">
-                                <div class="card card-shadow border-0 mb-4"
-                                    style="background: url(./images/p5-img1.jpg)no-repeat;">
-                                    <div class="card-body">
-                                        <h2 class="text-white mt-5 fw-bold">MAHASISWA</h2>
-                                        <ul class="general-listing">
-                                            <li class="py-3 d-block">
-                                                <h5 class="font-weight-normal fw-bold">Rp 250.000</h5>
-                                                <h6 class="subtitle font-weight-normal">Seminar Online + Call Paper</h6>
-                                            </li>
-                                            <li class="py-3 d-block">
-                                                <h5 class="font-weight-normal fw-bold">Rp 350.000</h5>
-                                                <h6 class="subtitle font-weight-normal">Seminar Offline + Call Paper
-                                                </h6>
-                                            </li>
-                                            <li class="py-3 d-block">
-                                                <h5 class="font-weight-normal fw-bold">Pembayaran</h5>
-                                                <h6 class="subtitle font-weight-normal">Rek: BNI 0837824154 an
-                                                    Zulaika Putri R</h6>
-                                            </li>
-                                        </ul>
+                                <div class="col-lg-6 mx-auto my-4">
+                                    <div
+                                        class="gap-2 d-sm-flex justify-content-sm-center py-3 px-sm-5"
+                                    >
+                                        <button
+                                            type="button"
+                                            class="btn btn-warning btn-md px-4 py-2 rounded-3 text-white"
+                                        >
+                                            Registrasi
+                                        </button>
+                                        <button
+                                            type="button"
+                                            class="btn btn-outline-warning btn-md px-4 py-2 rounded-3"
+                                        >
+                                            Get Poster
+                                        </button>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 middle-box">
-                                <div class="card card-shadow border-0 mb-4"
-                                    style="background: url(./images/p5-img2.jpg)no-repeat;">
-                                    <div class="card-body">
-                                        <h2 class="text-white mt-5 fw-bold">SEMINAR</h2>
-                                        <div class="star-plan mt-4"><img src="./images/icons/biaya.png" alt="wrapkit" />
+                        </div>
+                        <!-- END landing 1 -->
+                    </div>
+                </section>
+                <div class="container text-center mt-70">
+                    <h1 class="h1 fw-bold text-orange mt-5 mb-3">
+                        Call For Paper
+                    </h1>
+                    <h2 class="text-darker">Akselerasi Halal Value Chain</h2>
+                    <h2 class="text-darker">Untuk Kemajuan Bisnis UMKM</h2>
+                    <div class="d-flex justify-content-center text-center">
+                        <p class="py-4 w-75">
+                            Simpatik (Simposium Nasional Perbankan Akuntansi dan
+                            Keuangan) dengan rangkaian acara berupa Seminar
+                            Nasional dan Call For Paper yang diadakan oleh
+                            Jurusan Akuntansi Politeknik Negeri Semarang
+                            mengusung Tema: Akselerasi Halal Value Chain Untuk
+                            Kemajuan Bisnis UMKM melalui narasumber terpercaya
+                            dan ahli di bidangnya hadir untuk memberikan
+                            pengetahuan kepada para peserta baik dari kalangan
+                            praktisi dan juga akademisi untuk sama-sama dapat
+                            memproyeksikan serta dapat mengkritisi terkait topik
+                            yang dibahas dalam forum ilmiah ini. Acara ini
+                            sekaligus mengundang praktisi, industri, dinas
+                            pemerintah yang terkait dan akademisi untuk
+                            bergabung dan bekerjasama dalam berbagi pemikiran,
+                            gagasan, ide untuk dapat menciptakan suatu iklim
+                            investasi yang berkelanjutan dan fleksibel terhadap
+                            resiko investasi di masa depan.
+                        </p>
+                    </div>
+                    <div class="button-container pb-5">
+                        <a
+                            href="https://bit.ly/template_simpatik"
+                            class="btn btn-success mb-2"
+                            >Download Template</a
+                        ><br />
+                        <a
+                            href="https://forms.gle/CcUC66yDVX8YGWWh8"
+                            class="btn btn-danger bg-darker text-light"
+                            >Upload Abstrak</a
+                        >
+                    </div>
+                    <div
+                        class="card-container grid mt-3 mb-5 m-auto row d-flex justify-content-center g-4"
+                    >
+                        <div class="col-lg-3 shadow rounded-3">
+                            <div class="box-part text-center">
+                                <img src="./images/icons/buku.png" alt="" />
+                                <div class="title mt-3">
+                                    <h4>Publikasi Prosiding</h4>
+                                </div>
+                                <div class="text">
+                                    <span>
+                                        <p>
+                                            Setiap naskah yang diterima akan
+                                            diterbitkan melalui prosiding online
+                                            tanpa pemungutan biaya (GRATIS)
+                                        </p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 shadow rounded-3 mx-5">
+                            <div class="box-part text-center">
+                                <img src="./images/icons/medali.png" alt="" />
+                                <div class="title mt-3">
+                                    <h4>Makalah Terbaik</h4>
+                                </div>
+                                <div class="text">
+                                    <span>
+                                        <p>
+                                            Artikel terpilih akan dipublikasikan
+                                            pada Jurnal Nasional Terakreditasi
+                                            Sinta 2-5 dan Jurnal Nasional (biaya
+                                            publikasi menyesuaikan kebijakan
+                                            jurnal)
+                                        </p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 shadow rounded-3">
+                            <div class="box-part text-center">
+                                <img
+                                    src="./images/icons/sertifikat.png"
+                                    alt=""
+                                />
+                                <div class="title mt-3">
+                                    <h4>Sertifikat</h4>
+                                </div>
+                                <div class="text">
+                                    <span>
+                                        <p>
+                                            E-sertifikat bagi presenter penulis,
+                                            Best Paper/Best Presenter, dan
+                                            peserta
+                                        </p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pricing5 p-lg-5 p-sm-3 my-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-md-8 text-center">
+                                    <h3 class="mb-3">
+                                        Pricing to make your Work Effective
+                                    </h3>
+                                    <h6 class="subtitle font-weight-normal">
+                                        We offer 100% satisafaction and Money
+                                        back Guarantee
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="row text-center pricing-box">
+                                <div class="col-md-4">
+                                    <div
+                                        class="card card-shadow border-0 mb-4"
+                                        style="
+                                            background: url(./images/p5-img1.jpg)
+                                                no-repeat;
+                                        "
+                                    >
+                                        <div class="card-body">
+                                            <h2 class="text-white mt-5 fw-bold">
+                                                MAHASISWA
+                                            </h2>
+                                            <ul class="general-listing">
+                                                <li class="py-3 d-block">
+                                                    <h5
+                                                        class="font-weight-normal fw-bold"
+                                                    >
+                                                        Rp 250.000
+                                                    </h5>
+                                                    <h6
+                                                        class="subtitle font-weight-normal"
+                                                    >
+                                                        Seminar Online + Call
+                                                        Paper
+                                                    </h6>
+                                                </li>
+                                                <li class="py-3 d-block">
+                                                    <h5
+                                                        class="font-weight-normal fw-bold"
+                                                    >
+                                                        Rp 350.000
+                                                    </h5>
+                                                    <h6
+                                                        class="subtitle font-weight-normal"
+                                                    >
+                                                        Seminar Offline + Call
+                                                        Paper
+                                                    </h6>
+                                                </li>
+                                                <li class="py-3 d-block">
+                                                    <h5
+                                                        class="font-weight-normal fw-bold"
+                                                    >
+                                                        Pembayaran
+                                                    </h5>
+                                                    <h6
+                                                        class="subtitle font-weight-normal"
+                                                    >
+                                                        Rek: BNI 0837824154 an
+                                                        Zulaika Putri R
+                                                    </h6>
+                                                </li>
+                                            </ul>
                                         </div>
-                                        <ul class="general-listing">
-                                            <li class="py-3 d-block">
-                                                <h5 class="font-weight-normal fw-bold">Rp 50.000</h5>
-                                                <h6 class="subtitle font-weight-normal">Seminar Online</h6>
-                                            </li>
-                                            <li class="py-3 d-block">
-                                                <h5 class="font-weight-normal fw-bold">Rp 200.000</h5>
-                                                <h6 class="subtitle font-weight-normal">Seminar Offline</h6>
-                                            </li>
-                                            <li class="py-3 d-block">
-                                                <h5 class="font-weight-normal fw-bold">Pembayaran</h5>
-                                                <h6 class="subtitle font-weight-normal">Rek: BNI 0837824154 an
-                                                    Zulaika Putri R</h6>
-                                            </li>
-                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 middle-box">
+                                    <div
+                                        class="card card-shadow border-0 mb-4"
+                                        style="
+                                            background: url(./images/p5-img2.jpg)
+                                                no-repeat;
+                                        "
+                                    >
+                                        <div class="card-body">
+                                            <h2 class="text-white mt-5 fw-bold">
+                                                SEMINAR
+                                            </h2>
+                                            <div class="star-plan mt-4">
+                                                <img
+                                                    src="./images/icons/biaya.png"
+                                                    alt="wrapkit"
+                                                />
+                                            </div>
+                                            <ul class="general-listing">
+                                                <li class="py-3 d-block">
+                                                    <h5
+                                                        class="font-weight-normal fw-bold"
+                                                    >
+                                                        Rp 50.000
+                                                    </h5>
+                                                    <h6
+                                                        class="subtitle font-weight-normal"
+                                                    >
+                                                        Seminar Online
+                                                    </h6>
+                                                </li>
+                                                <li class="py-3 d-block">
+                                                    <h5
+                                                        class="font-weight-normal fw-bold"
+                                                    >
+                                                        Rp 200.000
+                                                    </h5>
+                                                    <h6
+                                                        class="subtitle font-weight-normal"
+                                                    >
+                                                        Seminar Offline
+                                                    </h6>
+                                                </li>
+                                                <li class="py-3 d-block">
+                                                    <h5
+                                                        class="font-weight-normal fw-bold"
+                                                    >
+                                                        Pembayaran
+                                                    </h5>
+                                                    <h6
+                                                        class="subtitle font-weight-normal"
+                                                    >
+                                                        Rek: BNI 0837824154 an
+                                                        Zulaika Putri R
+                                                    </h6>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div
+                                        class="card card-shadow border-0 mb-4"
+                                        style="
+                                            background: url(./images/p5-img3.jpg)
+                                                no-repeat;
+                                        "
+                                    >
+                                        <div class="card-body">
+                                            <h2 class="text-white mt-5 fw-bold">
+                                                DOSEN & UMUM
+                                            </h2>
+                                            <ul class="general-listing">
+                                                <li class="py-3 d-block">
+                                                    <h5
+                                                        class="font-weight-normal fw-bold"
+                                                    >
+                                                        Rp 400.000
+                                                    </h5>
+                                                    <h6
+                                                        class="subtitle font-weight-normal"
+                                                    >
+                                                        Seminar Online + Call
+                                                        Paper
+                                                    </h6>
+                                                </li>
+                                                <li class="py-3 d-block">
+                                                    <h5
+                                                        class="font-weight-normal fw-bold"
+                                                    >
+                                                        Rp 500.000
+                                                    </h5>
+                                                    <h6
+                                                        class="subtitle font-weight-normal"
+                                                    >
+                                                        Seminar Offline + Call
+                                                        Paper
+                                                    </h6>
+                                                </li>
+                                                <li class="py-3 d-block">
+                                                    <h5
+                                                        class="font-weight-normal fw-bold"
+                                                    >
+                                                        Pembayaran
+                                                    </h5>
+                                                    <h6
+                                                        class="subtitle font-weight-normal"
+                                                    >
+                                                        Rek: BNI 0837824154 an
+                                                        Zulaika Putri R
+                                                    </h6>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
-                                <div class="card card-shadow border-0 mb-4"
-                                    style="background: url(./images/p5-img3.jpg)no-repeat;">
-                                    <div class="card-body">
-                                        <h2 class="text-white mt-5 fw-bold">DOSEN & UMUM</h2>
-                                        <ul class="general-listing">
-                                            <li class="py-3 d-block">
-                                                <h5 class="font-weight-normal fw-bold">Rp 400.000</h5>
-                                                <h6 class="subtitle font-weight-normal">Seminar Online + Call Paper</h6>
-                                            </li>
-                                            <li class="py-3 d-block">
-                                                <h5 class="font-weight-normal fw-bold">Rp 500.000</h5>
-                                                <h6 class="subtitle font-weight-normal">Seminar Offline + Call Paper
-                                                </h6>
-                                            </li>
-                                            <li class="py-3 d-block">
-                                                <h5 class="font-weight-normal fw-bold">Pembayaran</h5>
-                                                <h6 class="subtitle font-weight-normal">Rek: BNI 0837824154 an
-                                                    Zulaika Putri R</h6>
-                                            </li>
-                                        </ul>
-                                    </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sub tema -->
+                <div class="container-fluid text-center bg-darker py-5">
+                    <h1 class="h1 fw-bold text-orange mt-70 mb-50">Sub Tema</h1>
+                    <div
+                        class="card-container grid mt-3 mb-5 m-auto row d-flex justify-content-center g-4"
+                    >
+                        <div class="col-lg-3 shadow bg-white rounded-3">
+                            <div class="box-part text-center">
+                                <img src="./images/icons/bank.png" alt="" />
+                                <div class="title mt-3">
+                                    <h4>Finance and Banking</h4>
+                                </div>
+                                <div class="text">
+                                    <ol type="a">
+                                        <li>Sustainable Financing</li>
+                                        <li>Sustainable Banking</li>
+                                        <li>Capital Market</li>
+                                        <li>Insurance</li>
+                                        <li>Islamic Economic and Finance</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 shadow bg-white rounded-3 mx-lg-4">
+                            <div class="box-part text-center">
+                                <img
+                                    src="./images/icons/akuntansi.png"
+                                    alt=""
+                                />
+                                <div class="title mt-3">
+                                    <h4>Accounting</h4>
+                                </div>
+                                <div class="text">
+                                    <ol type="a">
+                                        <li>Sustainability Reporting</li>
+                                        <li>Sustainability Accounting</li>
+                                        <li>Good Corporate Governance</li>
+                                        <li>Behavioral Accounting</li>
+                                        <li>
+                                            Management Accounting and Corporate
+                                            Sustainability
+                                        </li>
+                                        <li>Finacial Accounting</li>
+                                        <li>Auditing</li>
+                                        <li>Accounting Information System</li>
+                                        <li>Taxation</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 shadow bg-white rounded-3">
+                            <div class="box-part text-center">
+                                <img
+                                    src="./images/icons/akuntansi.png"
+                                    alt=""
+                                />
+                                <div class="title mt-3">
+                                    <h4>Entrepreneurship</h4>
+                                </div>
+                                <div class="text">
+                                    <ol type="a">
+                                        <li>
+                                            Entrepreneurship Challenges in
+                                            Global Market
+                                        </li>
+                                        <li>
+                                            Entrepreneurship and The
+                                            Availability of Human Resource
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 shadow bg-white rounded-3 me-lg-2">
+                            <div class="box-part text-center">
+                                <img
+                                    src="./images/icons/manajemen.png"
+                                    alt=""
+                                />
+                                <div class="title mt-3">
+                                    <h4>Management</h4>
+                                </div>
+                                <div class="text">
+                                    <ol type="a">
+                                        <li>Consumerism and Marketing</li>
+                                        <li>Risk Management</li>
+                                        <li>Ethics in Business Practices</li>
+                                        <li>Ethics in Business Practices</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 shadow bg-white rounded-3 ms-lg-2">
+                            <div class="box-part text-center">
+                                <img src="./images/icons/ekonomi.png" alt="" />
+                                <div class="title mt-3">
+                                    <h4>Economic</h4>
+                                </div>
+                                <div class="text">
+                                    <ol type="a">
+                                        <li>
+                                            Economic Regional dan Global Issues
+                                        </li>
+                                        <li>Natural Resources/Green Economy</li>
+                                    </ol>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- Sub tema -->
-            <div class="container-fluid text-center bg-darker py-5">
-                <h1 class="h1 fw-bold text-orange mt-70 mb-50">Sub Tema</h1>
-                <div class="card-container grid mt-3 mb-5 m-auto row d-flex justify-content-center g-4">
-                    <div class="col-lg-3 shadow bg-white rounded-3">
-                        <div class="box-part text-center">
-                            <img src="./images/icons/bank.png" alt="" />
-                            <div class="title mt-3">
-                                <h4>Finance and Banking</h4>
-                            </div>
-                            <div class="text">
-                                <ol type="a">
-                                    <li>Sustainable Financing</li>
-                                    <li>Sustainable Banking</li>
-                                    <li>Capital Market</li>
-                                    <li>Insurance</li>
-                                    <li>Islamic Economic and Finance</li>
-                                </ol>
+                <!-- Timeline -->
+                <section class="timeline-section" id="timeline">
+                    <div class="timeline-items">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">31 Juli 2023</div>
+                            <div
+                                class="timeline-content rounded-3 shadow bg-purple"
+                            >
+                                <h3 class="fw-bold">Call Paper</h3>
+                                <p>Batas pengiriman abstrak</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-3 shadow bg-white rounded-3 mx-lg-4">
-                        <div class="box-part text-center">
-                            <img src="./images/icons/akuntansi.png" alt="" />
-                            <div class="title mt-3">
-                                <h4>Accounting</h4>
-                            </div>
-                            <div class="text">
-                                <ol type="a">
-                                    <li>Sustainability Reporting</li>
-                                    <li>Sustainability Accounting</li>
-                                    <li>Good Corporate Governance</li>
-                                    <li>Behavioral Accounting</li>
-                                    <li>Management Accounting and Corporate Sustainability</li>
-                                    <li>Finacial Accounting</li>
-                                    <li>Auditing</li>
-                                    <li>Accounting Information System</li>
-                                    <li>Taxation</li>
-                                </ol>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">07 Agustus 2023</div>
+                            <div
+                                class="timeline-content rounded-3 shadow bg-purple"
+                            >
+                                <h3 class="fw-bold">Call Paper</h3>
+                                <p>Pengumuman hasil seleksi abstrak</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-3 shadow bg-white rounded-3">
-                        <div class="box-part text-center">
-                            <img src="./images/icons/akuntansi.png" alt="" />
-                            <div class="title mt-3">
-                                <h4>Entrepreneurship</h4>
-                            </div>
-                            <div class="text">
-                                <ol type="a">
-                                    <li>Entrepreneurship Challenges in Global Market</li>
-                                    <li>Entrepreneurship and The Availability of Human Resource</li>
-                                </ol>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">14 Agustus 2023</div>
+                            <div
+                                class="timeline-content rounded-3 shadow bg-purple"
+                            >
+                                <h3 class="fw-bold">Call Paper</h3>
+                                <p>Batas upload full paper</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-3 shadow bg-white rounded-3 me-lg-2">
-                        <div class="box-part text-center">
-                            <img src="./images/icons/manajemen.png" alt="" />
-                            <div class="title mt-3">
-                                <h4>Management</h4>
-                            </div>
-                            <div class="text">
-                                <ol type="a">
-                                    <li>Consumerism and Marketing</li>
-                                    <li>Risk Management</li>
-                                    <li>Ethics in Business Practices</li>
-                                    <li>Ethics in Business Practices</li>
-                                </ol>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">31 Agustus 2023</div>
+                            <div
+                                class="timeline-content rounded-3 shadow bg-gold"
+                            >
+                                <h3 class="fw-bold">Seminar & Call Paper</h3>
+                                <p>Batas akhir registrasi</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-3 shadow bg-white rounded-3 ms-lg-2">
-                        <div class="box-part text-center">
-                            <img src="./images/icons/ekonomi.png" alt="" />
-                            <div class="title mt-3">
-                                <h4>Economic</h4>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">26 September 2023</div>
+                            <div
+                                class="timeline-content rounded-3 shadow bg-green"
+                            >
+                                <h3 class="fw-bold">Seminar</h3>
+                                <p>Pelaksanaan</p>
+                                <p>
+                                    Hotel Grasia, Jl. Letnan Jenderal S.Parman
+                                    No. 29 Kota Seamarang
+                                </p>
+                                <p>Online Zoom meeting</p>
+                                <p>Pukul 07.30 – 12.30 WIB</p>
                             </div>
-                            <div class="text">
-                                <ol type="a">
-                                    <li>Economic Regional dan Global Issues</li>
-                                    <li>Natural Resources/Green Economy</li>
-                                </ol>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">27 September 2023</div>
+                            <div
+                                class="timeline-content rounded-3 shadow bg-purple"
+                            >
+                                <h3 class="fw-bold">Call Paper</h3>
+                                <p>Pelaksanaan</p>
+                                <p>Online Zoom meeting</p>
+                                <p>Pukul 07.30 – 14.00 WIB</p>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <!-- Timeline -->
-            <section class="section container py-5" id="timeline">
-                <div class="text-center pb-5">
-                    <h1 class="h1 fw-bold text-orange pb-4">Timeline</h1>
-                </div>
-                <div class="timeline timeline-container">
-                    <div
-                        class="row no-gutters justify-content-end justify-content-md-around align-items-start timeline-nodes">
-                        <div class="col-10 col-md-5 order-3 order-md-1 timeline-content-paper">
-                            <h3 class="bg-darker text-light">Call Paper</h3>
-                            <p>Batas pengiriman abstrak</p>
-                        </div>
-                        <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
-                            <img src="./images/simpatik-hijau.png" class="img-fluid" alt="img" />
-                        </div>
-                        <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
-                            <time>31 Juli 2023</time>
-                        </div>
-                    </div>
-                    <div
-                        class="row no-gutters justify-content-end justify-content-md-around align-items-start timeline-nodes">
-                        <div class="col-10 col-md-5 order-3 order-md-1 timeline-content-paper">
-                            <h3 class="bg-darker text-light">Call Paper</h3>
-                            <p>Pengumuman hasil seleksi abstrak</p>
-                        </div>
-                        <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
-                            <img src="./images/simpatik-hijau.png" class="img-fluid" alt="img" />
-                        </div>
-                        <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
-                            <time>07 Agustus 2023</time>
-                        </div>
-                    </div>
-                    <div
-                        class="row no-gutters justify-content-end justify-content-md-around align-items-start timeline-nodes">
-                        <div class="col-10 col-md-5 order-3 order-md-1 timeline-content-paper">
-                            <h3 class="bg-darker text-light">Call Paper</h3>
-                            <p>Batas upload full paper</p>
-                        </div>
-                        <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
-                            <img src="./images/simpatik-hijau.png" class="img-fluid" alt="img" />
-                        </div>
-                        <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
-                            <time>14 Agustus 2023</time>
-                        </div>
-                    </div>
-                    <div
-                        class="row no-gutters justify-content-end justify-content-md-around align-items-start timeline-nodes">
-                        <div class="col-10 col-md-5 order-3 order-md-1 timeline-content-both">
-                            <h3 class="bg-orange text-light">
-                                Seminar & Call Paper
-                            </h3>
-                            <p>Batas akhir registrasi</p>
-                        </div>
-                        <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
-                            <img src="./images/simpatik-hijau.png" class="img-fluid" alt="img" />
-                        </div>
-                        <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
-                            <time>31 Agustus 2023</time>
-                        </div>
-                    </div>
-                    <div
-                        class="row no-gutters justify-content-end justify-content-md-around align-items-start timeline-nodes">
-                        <div class="col-10 col-md-5 order-3 order-md-1 timeline-content-seminar">
-                            <h3 class="bg-darker-less text-light">Seminar</h3>
-                            <p>
-                                <b>Pelaksanaan</b><br />
-                                <img src="./images/icons/location-pin.png" alt="Location" width="28px" />
-                                Hotel Grasia Semarang, Jl. Letnan Jenderal
-                                S.Parman No. 29 Kota Seamarang <br />
-                                <img src="./images/icons/location-pin.png" alt="Location" width="28px" />
-                                Online Zoom meeting <br />
-                                <img src="./images/icons/time.png" alt="Time" width="28px" />
-                                Pukul 07.30 – 12.30 WIB <br />
-                            </p>
-                        </div>
-                        <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
-                            <img src="./images/simpatik-hijau.png" class="img-fluid" alt="img" />
-                        </div>
-                        <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
-                            <time>26 September 2023</time>
-                        </div>
-                    </div>
-                    <div
-                        class="row no-gutters justify-content-end justify-content-md-around align-items-start timeline-nodes">
-                        <div class="col-10 col-md-5 order-3 order-md-1 timeline-content-paper">
-                            <h3 class="bg-darker text-light">Call Paper</h3>
-                            <p>
-                                <b>Pelaksanaan</b><br />
-                                <img src="./images/icons/location-pin.png" alt="Location" width="28px" />
-                                Online Zoom meeting <br />
-                                <img src="./images/icons/time.png" alt="Time" width="28px" />
-                                Pukul 07.30 – 14.00 WIB <br />
-                            </p>
-                        </div>
-                        <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
-                            <img src="./images/simpatik-hijau.png" class="img-fluid" alt="img" />
-                        </div>
-                        <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
-                            <time>27 September 2023</time>
+                </section>
+            </section>
+            <!-- End Home -->
+            <!-- Publikasi -->
+            <section class="services mt-0" id="publikasi">
+                <div class="container-fluid bg-darker py-5">
+                    <h1 class="fw-bold text-orange text-center pb-4">
+                        Peluang Publikasi
+                    </h1>
+                    <div class="container card text-center py-5">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-2 my-auto p-2">
+                                <a
+                                    href="https://jurnal.polines.ac.id/index.php/keunis/index"
+                                    class="pb-0"
+                                    ><img
+                                        src="./images/journals/KEUNIS.png"
+                                        alt="KEUNIS"
+                                        width="96px"
+                                /></a>
+                                <p class=" ">Sinta 4, DOAJ</p>
+                            </div>
+                            <div class="col-md-2 p-2">
+                                <a
+                                    href="https://jurnal.polines.ac.id/index.php/akunbisnis"
+                                    ><img
+                                        src="./images/journals/AB.png"
+                                        alt="AB"
+                                        width="96px"
+                                /></a>
+                                <p>Sinta 5</p>
+                            </div>
+                            <div class="col-md-2 p-2">
+                                <a
+                                    href="https://jurnal.polines.ac.id/index.php/AAMAR/user"
+                                    ><img
+                                        src="./images/journals/AAMAR.png"
+                                        alt="AAMAR"
+                                        width="96"
+                                /></a>
+                                <p>Google Scholar</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-        </section>
-        <!-- End Home -->
-        <!-- Publikasi -->
-        <section class="services mt-0" id="publikasi">
-            <div class="container-fluid bg-darker py-5">
-                <h1 class="fw-bold text-orange text-center pb-4">
-                    Peluang Publikasi
-                </h1>
-                <div class="container card text-center py-5">
-                    <div class="row d-flex justify-content-center">
-                        <div class="col-md-2 my-auto p-2">
-                            <a href="https://jurnal.polines.ac.id/index.php/keunis/index" class="pb-0"><img
-                                    src="./images/journals/KEUNIS.png" alt="KEUNIS" width="96px" /></a>
-                            <p class=" ">Sinta 4, DOAJ</p>
-                        </div>
-                        <div class="col-md-2 p-2">
-                            <a href="https://jurnal.polines.ac.id/index.php/akunbisnis"><img
-                                    src="./images/journals/AB.png" alt="AB" width="96px" /></a>
-                            <p>Sinta 5</p>
-                        </div>
-                        <div class="col-md-2 p-2">
-                            <a href="https://jurnal.polines.ac.id/index.php/AAMAR/user"><img
-                                    src="./images/journals/AAMAR.png" alt="AAMAR" width="96" /></a>
-                            <p>Google Scholar</p>
+            <!-- End Publikasi -->
+            <!-- Sponsor -->
+            <section class="services mt-0" id="publikasi">
+                <div class="container-fluid pb-5">
+                    <h1 class="fw-bold text-orange text-center pb-4">
+                        Supported by
+                    </h1>
+                    <div class="container text-center py-5">
+                        <div class="row">
+                            <div class="col-md-3 p-2"></div>
+                            <div class="col-md-3 my-auto p-2">
+                                <img
+                                    src="./images/sponsors/ap_ashari_ida.jpeg"
+                                    alt="Kantor Akuntan Publik Ashari & Ida Nurhayati"
+                                    width="192px"
+                                />
+                            </div>
+                            <div class="col-md-3 my-auto p-2">
+                                <img
+                                    src="./images/sponsors/shanum.jpg"
+                                    alt="Shanum Ecoprint & Craft"
+                                    width="192px"
+                                />
+                            </div>
+                            <div class="col-md-3 p-2"></div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- End Publikasi -->
-        <!-- Sponsor -->
-        <section class="services mt-0" id="publikasi">
-            <div class="container-fluid pb-5">
-                <h1 class="fw-bold text-orange text-center pb-4">
-                    Supported by
-                </h1>
-                <div class="container text-center py-5">
-                    <div class="row">
-                        <div class="col-md-3 p-2"></div>
-                        <div class="col-md-3 my-auto p-2">
-                            <img src="./images/sponsors/ap_ashari_ida.jpeg"
-                                alt="Kantor Akuntan Publik Ashari & Ida Nurhayati" width="192px" />
-                        </div>
-                        <div class="col-md-3 my-auto p-2">
-                            <img src="./images/sponsors/shanum.jpg" alt="Shanum Ecoprint & Craft" width="192px" />
-                        </div>
-                        <div class="col-md-3 p-2"></div>
+            </section>
+            <!-- End Sponsor -->
+        </main>
+        <!-- Footer -->
+        <footer class="site-footer" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 text-center">
+                        <h6 class="text-orange">Simpatik</h6>
+                        <img
+                            src="./images/logo.png"
+                            alt="Simpatik"
+                            class="img-fluid"
+                            width="96px"
+                        />
+                    </div>
+                    <div class="col-md-10">
+                        <h6>Contact Us</h6>
+                        <p>
+                            <img
+                                src="./images/icons/location-pin.png"
+                                alt="Location"
+                                width="28px"
+                                class="me-1"
+                            />
+                            Jl. Prof. Sudarto, Tembalang, Kec. Tembalang, Kota
+                            Semarang, Jawa Tengah 50275 <br />
+                        </p>
+                        <p>
+                            <img
+                                src="./images/icons/phone.png"
+                                alt="Phone"
+                                class="me-1"
+                                width="28px"
+                            />
+                            Vivin (+62 812-2333-6499) <br />
+                            <img
+                                src="./images/icons/phone.png"
+                                alt="Phone"
+                                class="me-1"
+                                width="28px"
+                            />
+                            Rona (+62 812-1532-2054) <br />
+                        </p>
+                        <p>
+                            <img
+                                src="./images/icons/email.png"
+                                alt="Email"
+                                class="me-1"
+                                width="28px"
+                            />
+                            <a href="mailto:simpatik@polines.ac.id"
+                                >simpatik@polines.ac.id</a
+                            >
+                        </p>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- End Sponsor -->
-    </main>
-    <!-- Footer -->
-    <footer class="site-footer" id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-2 text-center">
-                    <h6 class="text-orange">Simpatik</h6>
-                    <img src="./images/logo.png" alt="Simpatik" class="img-fluid" width="96px" />
-                </div>
-                <div class="col-md-10">
-                    <h6>Contact Us</h6>
-                    <p>
-                        <img src="./images/icons/location-pin.png" alt="Location" width="28px" class="me-1" />
-                        Jl. Prof. Sudarto, Tembalang, Kec. Tembalang, Kota
-                        Semarang, Jawa Tengah 50275 <br />
-                    </p>
-                    <p>
-                        <img src="./images/icons/phone.png" alt="Phone" class="me-1" width="28px" />
-                        Vivin (+62 812-2333-6499) <br />
-                        <img src="./images/icons/phone.png" alt="Phone" class="me-1" width="28px" />
-                        Rona (+62 812-1532-2054) <br />
-                    </p>
-                    <p>
-                        <img src="./images/icons/email.png" alt="Email" class="me-1" width="28px" />
-                        <a href="mailto:simpatik@polines.ac.id">simpatik@polines.ac.id</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- End Footer -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-        crossorigin="anonymous"></script>
-</body>
-
+        </footer>
+        <!-- End Footer -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>
