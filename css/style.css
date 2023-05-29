@@ -7,43 +7,18 @@
     font-family: "Poppins";
 }
 
+p {
+    color: #8d97ad !important;
+}
+
+.shadow {
+    -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1) !important;
+    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1) !important;
+}
+
 /* Typhography */
 .title-landing {
     font-family: "Shrikhand", cursive;
-}
-
-/*variabel*/
-:root {
-    /*tipografi*/
-    --body-font: "Poppins", sans-serif;
-    --biggest-font-size: 2rem;
-    --h2-font-size: 1.25rem;
-    --h3-font-size: 1.125rem;
-    --normal-font-size: 0.938rem;
-    --small-font-size: 0.813rem;
-    --smaller-font-size: 0.75rem;
-    --font-semi-bold: 600;
-    --font-bold: 700;
-
-    --mb-0-5: 0.5rem;
-    --mb-0-75: 0.75rem;
-    --mb-1: 1rem;
-    --mb-1-5: 1.5rem;
-    --mb-2: 2rem;
-
-    --z-tooltip: 10;
-    --z-fixed: 100;
-}
-
-@media screen and (min-width: 968px) {
-    :root {
-        --biggest-font-size: 3rem;
-        --h2-font-size: 1.75rem;
-        --h3-font-size: 1.25rem;
-        --normal-font-size: 1rem;
-        --small-font-size: 0.875rem;
-        --smaller-font-size: 0.813rem;
-    }
 }
 
 :focus {
@@ -56,15 +31,15 @@
 }
 
 .text-darker {
-    color: #8e44ad;
+    color: #741f89;
 }
 
 .text-darker-less {
     color: #33323c;
 }
 
-.text-green {
-    color: #9cd578;
+.text-gold {
+    color: #f1c40f;
 }
 
 .bg-orange {
@@ -80,21 +55,15 @@
 }
 
 .bg-green {
-    background-color: #3DC2A2;
+    background-color: #3dc2a2;
 }
 
 .bg-purple {
-    background-color: #8e44ad;
+    background-color: #741f89;
 }
 
 .bg-gold {
     background-color: #f1c40f;
-}
-
-.bg-image {
-    background-image: url("../images/banner-simpatik.png");
-    background-repeat: no-repeat;
-    opacity: 0.75;
 }
 
 /* navbar */
@@ -104,7 +73,7 @@ nav {
 }
 
 nav .nav-link:hover {
-    color: #8e44ad;
+    color: #741f89;
 }
 
 /* img-banner */
@@ -164,7 +133,7 @@ nav .nav-link:hover {
     position: absolute;
     width: 2px;
     height: 100%;
-    background-color: #000;
+    background-color: #33323c;
     left: calc(50% - 1px);
 }
 .timeline-item {
@@ -185,7 +154,7 @@ nav .nav-link:hover {
 .timeline-dot {
     height: 16px;
     width: 16px;
-    background-color: #000;
+    background-color: #33323c;
     position: absolute;
     left: calc(50% - 8px);
     border-radius: 50%;
@@ -193,7 +162,7 @@ nav .nav-link:hover {
 }
 .timeline-date {
     font-size: 18px;
-    color: #000;
+    color: #33323c;
     margin: 6px 0 15px;
 }
 .timeline-content {
@@ -201,13 +170,12 @@ nav .nav-link:hover {
 }
 .timeline-content h3 {
     font-size: 20px;
-    color: #ffffff;
     margin: 0 0 10px;
     text-transform: capitalize;
     font-weight: 500;
 }
 .timeline-content p {
-    color: #ffffff;
+    color: #000;
     font-size: 16px;
     font-weight: 300;
     line-height: 22px;
@@ -331,10 +299,6 @@ span {
     background-size: 100% !important;
 }
 
-.pricing5 .yearly {
-    display: none;
-}
-
 .pricing5 .pricing-box {
     margin-top: 120px;
 }
@@ -356,49 +320,6 @@ span {
     }
 }
 
-.pricing5 .btn-success-gradiant {
-    background: #2cdd9b;
-    background: -webkit-linear-gradient(
-        legacy-direction(to right),
-        #2cdd9b 0%,
-        #1dc8cc 100%
-    );
-    background: -webkit-gradient(
-        linear,
-        left top,
-        right top,
-        from(#2cdd9b),
-        to(#1dc8cc)
-    );
-    background: -webkit-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
-    background: -o-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
-    background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
-}
-
-.pricing5 .btn-success-gradiant:hover {
-    background: #1dc8cc;
-    background: -webkit-linear-gradient(
-        legacy-direction(to right),
-        #1dc8cc 0%,
-        #2cdd9b 100%
-    );
-    background: -webkit-gradient(
-        linear,
-        left top,
-        right top,
-        from(#1dc8cc),
-        to(#2cdd9b)
-    );
-    background: -webkit-linear-gradient(left, #1dc8cc 0%, #2cdd9b 100%);
-    background: -o-linear-gradient(left, #1dc8cc 0%, #2cdd9b 100%);
-    background: linear-gradient(to right, #1dc8cc 0%, #2cdd9b 100%);
-}
-
-.pricing5 .btn-md {
-    padding: 15px 45px;
-    font-size: 16px;
-}
-
 .pricing5 .rounded-left {
     border-top-left-radius: 60px !important;
     border-bottom-left-radius: 60px !important;
@@ -407,18 +328,6 @@ span {
 .pricing5 .rounded-right {
     border-top-right-radius: 60px !important;
     border-bottom-right-radius: 60px !important;
-}
-
-.pricing5 .btn-outline-success {
-    color: #2cdd9b;
-    background-color: transparent;
-    border-color: #2cdd9b;
-}
-
-.pricing5 .btn-outline-success:hover {
-    background: #2cdd9b;
-    border-color: #2cdd9b;
-    color: #ffffff;
 }
 
 ul {
@@ -435,5 +344,6 @@ ol {
 
 ol li {
     text-align: left;
+    color: #8d97ad;
     /* margin-left: 10%; */
 }

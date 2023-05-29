@@ -32,7 +32,7 @@
     width: 300px;
 }
 
-.responsive-d-flex{
+.responsive-d-flex {
     display: flex;
     flex-wrap: wrap;
     /* gap: 1.5rem; */
@@ -42,7 +42,7 @@
     gap: 1rem;
 }
 
-.justify-center{
+.justify-center {
     justify-content: center;
 }
 
@@ -56,26 +56,29 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
-.responsive-d-grid div{
+.responsive-d-grid div {
     margin: 15px;
 }
 
-.x-small{
+.x-small {
     font-size: x-small;
 }
 
 .mt-70 {
-    margin-top: 70px
+    margin-top: 70px;
 }
 
 .mb-70 {
-    margin-bottom: 70px
+    margin-bottom: 70px;
 }
 
 .card {
-    box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03), 0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03), 0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05), 0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
+    box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03),
+        0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03),
+        0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05),
+        0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
     border-width: 0;
-    transition: all .2s
+    transition: all 0.2s;
 }
 
 .card {
@@ -87,12 +90,12 @@
     background-color: #fff;
     background-clip: border-box;
     border: 1px solid rgba(26, 54, 126, 0.125);
-    border-radius: .25rem
+    border-radius: 0.25rem;
 }
 
 .card-body {
     flex: 1 1 auto;
-    padding: 1.25rem
+    padding: 1.25rem;
 }
 
 .services__data-custom {
