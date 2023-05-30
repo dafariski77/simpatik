@@ -1,11 +1,6 @@
 /* font */
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
-
-* {
-    font-family: "Poppins";
-}
 
 html,
 body {
@@ -13,18 +8,36 @@ body {
     overflow-x: hidden;
 }
 
-p {
-    color: #8d97ad !important;
-}
-
+/* Custom Shadow */
 .shadow {
     -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1) !important;
     box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1) !important;
 }
 
 /* Typhography */
+
+* {
+    font-family: "Poppins";
+}
+
 .title-landing {
     font-family: "Shrikhand", cursive;
+}
+
+span {
+    font-size: 15px;
+}
+
+.text {
+    margin: 20px 0px;
+}
+
+p {
+    color: #8d97ad !important;
+}
+
+a {
+    text-decoration: none;
 }
 
 :focus {
@@ -32,36 +45,24 @@ p {
 }
 
 /* Colors */
-.text-orange {
+.text-green {
     color: #1abc9c;
 }
 
-.text-darker {
+.text-purple {
     color: #741f89;
-}
-
-.text-darker-less {
-    color: #33323c;
 }
 
 .text-gold {
     color: #f1c40f;
 }
 
-.bg-orange {
+.bg-green {
     background-color: #1abc9c;
 }
 
-.bg-darker {
+.bg-smoke {
     background-color: #f9faff;
-}
-
-.bg-darker-less {
-    background-color: #33323c;
-}
-
-.bg-green {
-    background-color: #3dc2a2;
 }
 
 .bg-purple {
@@ -70,6 +71,31 @@ p {
 
 .bg-gold {
     background-color: #f1c40f;
+}
+
+/* Button */
+.btn-purple {
+    background-color: #741f89;
+    color: #fff;
+    transition: 0.3s;
+    border: none;
+}
+
+.btn-outline-purple {
+    background-color: transparent;
+    color: #741f89;
+    border: solid 2px #741f89;
+    transition: 0.3s;
+}
+
+.btn-purple:hover {
+    background-color: #631a75;
+}
+
+.btn-outline-purple:hover {
+    background-color: #741f89;
+    color: #fff;
+    border: solid 2px #741f89;
 }
 
 /* navbar */
@@ -205,60 +231,14 @@ nav .nav-link:hover {
     }
 }
 
-/* footer */
-.site-footer {
-    background-color: #ebecec;
-    padding: 45px 0 20px;
-    font-size: 15px;
-    line-height: 24px;
-    color: #000000;
-}
-
-.site-footer h6 {
-    color: #741f89;
-    font-size: 16px;
-    text-transform: uppercase;
-    margin-top: 5px;
-    letter-spacing: 2px;
-    font-weight: bold;
-}
-
-.site-footer a {
-    color: #737373;
-    text-decoration: none;
-}
-
-.site-footer .contact p i {
-    margin-right: 5px;
-}
-
-.site-footer a:hover {
-    color: #3366cc;
-    text-decoration: none;
-}
-
-@media (max-width: 991px) {
-    .site-footer [class^="col-"] {
-        margin-bottom: 30px;
-    }
-}
-
-@media (max-width: 767px) {
-    .site-footer {
-        padding-bottom: 0;
-    }
-}
-
+/* HERO BG */
 .bg-custom {
     background-image: url("../images/bg.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-span {
-    font-size: 15px;
-}
-
+/* Custom Card */
 .box-part {
     background: #fff;
     border-radius: 0;
@@ -266,10 +246,23 @@ span {
     margin: 30px 0px;
 }
 
-.text {
-    margin: 20px 0px;
+ul {
+    padding-left: 0px !important;
 }
 
+ol {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-position: inside;
+}
+
+ol li {
+    text-align: left;
+    color: #8d97ad;
+}
+
+/* Pricing */
 .pricing5 {
     color: #8d97ad;
     font-weight: 300;
@@ -346,26 +339,53 @@ span {
     border-bottom-right-radius: 60px !important;
 }
 
-ul {
-    padding-left: 0px !important;
-}
-
-ol {
-    /* list-style-position: inside; */
-    display: table;
-    margin-left: auto;
-    margin-right: auto;
-    list-style-position: inside;
-}
-
-ol li {
-    text-align: left;
-    color: #8d97ad;
-    /* margin-left: 10%; */
-}
-
+/* Publikasi */
 .product-img {
     object-fit: contain;
     height: 80px;
     width: 100%;
+}
+
+/* footer */
+.site-footer {
+    background-color: #ebecec;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.site-footer h6 {
+    color: #741f89;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.site-footer a {
+    color: #737373;
+    text-decoration: none;
+}
+
+.site-footer .contact p i {
+    margin-right: 5px;
+}
+
+.site-footer a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+@media (max-width: 991px) {
+    .site-footer [class^="col-"] {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .site-footer {
+        padding-bottom: 0;
+    }
 }
