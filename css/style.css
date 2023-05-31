@@ -40,6 +40,16 @@ a {
     text-decoration: none;
 }
 
+/* .p-body {
+    width: 100%;
+}
+
+@media (max-width: 437) {
+    .p-body {
+        width: 75%;
+    }
+} */
+
 :focus {
     outline: 0px solid transparent !important;
 }
