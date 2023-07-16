@@ -167,10 +167,10 @@ nav[style] {
 
 /* timeline */
 .timeline-section {
-    background-color: #fff;
     min-height: 100vh;
     padding: 100px 15px;
 }
+
 .timeline-items {
     max-width: 1000px;
     margin: auto;
@@ -178,6 +178,7 @@ nav[style] {
     flex-wrap: wrap;
     position: relative;
 }
+
 .timeline-items::before {
     content: "";
     position: absolute;
@@ -186,21 +187,26 @@ nav[style] {
     background-color: #33323c;
     left: calc(50% - 1px);
 }
+
 .timeline-item {
     margin-bottom: 40px;
     width: 100%;
     position: relative;
 }
+
 .timeline-item:last-child {
     margin-bottom: 0;
 }
+
 .timeline-item:nth-child(odd) {
     padding-right: calc(50% + 30px);
     text-align: right;
 }
+
 .timeline-item:nth-child(even) {
     padding-left: calc(50% + 30px);
 }
+
 .timeline-dot {
     height: 16px;
     width: 16px;
@@ -210,20 +216,25 @@ nav[style] {
     border-radius: 50%;
     top: 10px;
 }
+
 .timeline-date {
     font-size: 18px;
     color: #33323c;
     margin: 6px 0 15px;
 }
+
 .timeline-content {
     padding: 30px;
+    background-color: #fff;
 }
+
 .timeline-content h3 {
     font-size: 20px;
     margin: 0 0 10px;
     text-transform: capitalize;
     font-weight: 500;
 }
+
 .timeline-content p {
     color: #000;
     font-size: 16px;
@@ -361,6 +372,13 @@ ol li {
 .product-img {
     object-fit: contain;
     height: 80px;
+    width: 100%;
+}
+
+/* Publikasi */
+.sponsor-img {
+    object-fit: contain;
+    height: 160px;
     width: 100%;
 }
 
