@@ -382,6 +382,12 @@ ol li {
     width: 100%;
 }
 
+.sponsor-img-bsi {
+    object-fit: contain;
+    height: 210px;
+    width: 100%;
+}
+
 /* footer */
 .site-footer {
     background-color: #ebecec;
